@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PathoLens AI — Multimodal Digital Pathology</title>
+
+    <!-- Modern typography (inter + source sans 3) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Sans+3:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Meta description for SEO -->
+    <meta
+      name="description"
+      content="PathoLens AI brings multimodal AI-powered digital pathology to resource-limited labs, enabling rapid, accurate, and structured diagnoses."
+    />
+
+    <!-- Favicon (emoji for simplicity) -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧬</text></svg>"
+    />
+  </head>
+  <body>
+    <!-- Skip to content for accessibility -->
+    <a class="skip-link" href="#home">Skip to content</a>
+
+    <!-- Header & Navigation (sticky) -->
+    <header class="header" id="top" role="banner">
+      <div class="container nav-wrap">
+        <a href="#home" class="logo" aria-label="PathoLens AI Home"
+          >PathoLens <span>AI</span></a
+        >
+
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Toggle navigation"
+        >
+          <span class="bar"></span><span class="bar"></span
+          ><span class="bar"></span>
+        </button>
+
+        <nav
+          id="primary-nav"
+          class="nav"
+          role="navigation"
+          aria-label="Primary"
+        >
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#technology">Technology</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#outcomes">Outcomes</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <h1 id="hero-title">
+          PathoLens AI: Multimodal AI-Powered Digital Pathology for Early
+          Disease Detection
+        </h1>
+        <p class="subtitle">
+          Democratizing access to early disease detection in resource-limited
+          labs
+        </p>
+        <div class="cta-group">
+          <a href="#contact" class="btn btn-primary">Request a Demo</a>
+          <a href="#about" class="btn btn-outline">Learn More</a>
+        </div>
+      </div>
+      <!-- Hero background image (royalty-free: Unsplash medical/tech) -->
+      <!-- Image credit (optional): https://unsplash.com/photos/blue-and-white-dna-illustration-rTZW4f02zY8 -->
+    </section>
+
+    <!-- About / Abstract Section -->
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title" class="section-title">About PathoLens AI</h2>
+        <p class="section-lead">
+          PathoLens AI digitizes glass slides and applies multimodal AI to
+          accelerate accurate diagnoses. The platform blends whole-slide imaging
+          with clinical context to produce structured, audit-ready
+          reports—reducing turnaround time while supporting overburdened
+          specialists.
+        </p>
+
+        <div class="grid cards-3">
+          <!-- Card 1 -->
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <!-- Microscope SVG -->
+              <svg
+                viewBox="0 0 24 24"
+                width="28"
+                height="28"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  d="M6 22h13a1 1 0 0 0 0-2h-1v-2a4 4 0 0 0-4-4h-1V9.41l.29.3a1 1 0 0 0 1.42-1.42l-3-3a1 1 0 0 0-1.42 0l-3 3A1 1 0 0 0 7.29 9.7l.29-.3V14H6a4 4 0 0 0-4 4v2H1a1 1 0 0 0 0 2h5zm2-6h4a2 2 0 0 1 2 2v2H6v-2a2 2 0 0 1 2-2zm3-9.59L13.59 8H9.41L11 6.41z"
+                ></path>
+              </svg>
+            </div>
+            <h3>Digitization of slides</h3>
+            <p>
+              High-resolution whole-slide scanning converts glass slides to
+              shareable digital images, preserving fidelity for downstream AI
+              analysis and telepathology.
+            </p>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <!-- AI chip SVG -->
+              <svg
+                viewBox="0 0 24 24"
+                width="28"
+                height="28"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  d="M9 2h6v2h2v2h2v6h-2v2h-2v2H9v-2H7v-2H5V6h2V4h2V2zm0 4v12h6V6H9zM3 11h2v2H3v-2zm16 0h2v2h-2v-2zM11 3h2v2h-2V3zm0 16h2v2h-2v-2zM4 7h2v2H4V7zm14 0h2v2h-2V7zM4 15h2v2H4v-2zm14 0h2v2h-2v-2z"
+                ></path>
+              </svg>
+            </div>
+            <h3>AI analysis</h3>
+            <p>
+              Multimodal models fuse image features with clinical data to
+              triage, classify, and quantify findings, supporting consistent,
+              explainable decisions.
+            </p>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <!-- Report SVG -->
+              <svg
+                viewBox="0 0 24 24"
+                width="28"
+                height="28"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  d="M7 2h7l5 5v13a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm7 1.5V7h3.5L14 3.5zM8 9h8v2H8V9zm0 4h8v2H8v-2zm0 4h6v2H8v-2z"
+                ></path>
+              </svg>
+            </div>
+            <h3>Structured reports</h3>
+            <p>
+              Auto-generated templates standardize terminology, capture key
+              metrics, and integrate seamlessly with LIS for faster sign-off and
+              audits.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem Statement -->
+    <section class="section alt" aria-labelledby="problem-title">
+      <div class="container">
+        <h2 id="problem-title" class="section-title">Problem statement</h2>
+        <div class="grid cards-3">
+          <article class="card card-lite">
+            <div class="card-icon" aria-hidden="true">🏥</div>
+            <h3>Shortage of specialists</h3>
+            <p>
+              Tier-2/3 cities face limited access to trained pathologists,
+              causing uneven workloads and reduced coverage across districts.
+            </p>
+          </article>
+
+          <article class="card card-lite">
+            <div class="card-icon" aria-hidden="true">⏳</div>
+            <h3>Delayed diagnoses</h3>
+            <p>
+              Backlogs and manual workflows slow down case review, delaying
+              treatment initiation and increasing patient risk.
+            </p>
+          </article>
+
+          <article class="card card-lite">
+            <div class="card-icon" aria-hidden="true">⚠️</div>
+            <h3>Missed early interventions</h3>
+            <p>
+              Subtle patterns can be overlooked under time pressure, reducing
+              sensitivity to early-stage disease signals.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proposed Solution (Features) -->
+    <section id="features" class="section" aria-labelledby="solution-title">
+      <div class="container">
+        <h2 id="solution-title" class="section-title">Proposed solution</h2>
+
+        <!-- Tabs -->
+        <div class="tabs" role="tablist" aria-label="Solution features">
+          <button
+            class="tab-btn active"
+            role="tab"
+            aria-selected="true"
+            data-tab="scan"
+          >
+            Slide scanning
+          </button>
+          <button
+            class="tab-btn"
+            role="tab"
+            aria-selected="false"
+            data-tab="ai"
+          >
+            AI-based image analysis
+          </button>
+          <button
+            class="tab-btn"
+            role="tab"
+            aria-selected="false"
+            data-tab="multimodal"
+          >
+            Multimodal diagnosis
+          </button>
+          <button
+            class="tab-btn"
+            role="tab"
+            aria-selected="false"
+            data-tab="reports"
+          >
+            Structured reports
+          </button>
+          <button
+            class="tab-btn"
+            role="tab"
+            aria-selected="false"
+            data-tab="risk"
+          >
+            High-risk flagging
+          </button>
+        </div>
+
+        <div class="tab-panels">
+          <!-- Panel: Slide scanning -->
+          <div class="tab-panel active" id="scan" role="tabpanel">
+            <div class="panel-grid">
+              <img
+                src="https://images.unsplash.com/photo-1582560475093-ba66accbc424?q=80&w=1200&auto=format&fit=crop"
+                alt="Slide scanning workstation in a lab"
+              />
+              <div>
+                <h3>Digitize with confidence</h3>
+                <p>
+                  Whole-slide imaging captures gigapixel detail for brightfield
+                  and special stains, enabling remote review and AI augmentation
+                  without loss of fidelity.
+                </p>
+                <ul class="checklist">
+                  <li><span>✔</span> High-resolution, color-accurate scans</li>
+                  <li>
+                    <span>✔</span> Standard formats compatible with LIS/VNA
+                  </li>
+                  <li><span>✔</span> Edge buffering for low-bandwidth sites</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel: AI analysis -->
+          <div class="tab-panel" id="ai" role="tabpanel" hidden>
+            <div class="panel-grid">
+              <img
+                src="https://images.unsplash.com/photo-1630953827077-24ea5d4c8e07?q=80&w=1200&auto=format&fit=crop"
+                alt="AI inference visualization on medical images"
+              />
+              <div>
+                <h3>Explainable vision intelligence</h3>
+                <p>
+                  Patch-level inference, heatmaps, and region proposals help
+                  surface suspicious areas for targeted review and
+                  quantification.
+                </p>
+                <ul class="checklist">
+                  <li><span>✔</span> Attention maps for interpretability</li>
+                  <li><span>✔</span> Triage rules to prioritize queues</li>
+                  <li><span>✔</span> Continual learning with drift alerts</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel: Multimodal -->
+          <div class="tab-panel" id="multimodal" role="tabpanel" hidden>
+            <div class="panel-grid">
+              <img
+                src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop"
+                alt="Multimodal data fusion dashboard"
+              />
+              <div>
+                <h3>Fuse image + context</h3>
+                <p>
+                  Combine slide morphology, lab values, and clinical notes to
+                  refine differential diagnosis and reduce false positives.
+                </p>
+                <ul class="checklist">
+                  <li><span>✔</span> Clinical context enriches predictions</li>
+                  <li><span>✔</span> Evidence trails for audit</li>
+                  <li><span>✔</span> Configurable decision thresholds</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel: Reports -->
+          <div class="tab-panel" id="reports" role="tabpanel" hidden>
+            <div class="panel-grid">
+              <img
+                src="https://images.unsplash.com/photo-1582719478250-0f4a6fdf96e9?q=80&w=1200&auto=format&fit=crop"
+                alt="Structured clinical reporting interface"
+              />
+              <div>
+                <h3>Structured, standardized outputs</h3>
+                <p>
+                  Auto-filled synoptic templates with key measurements, coded
+                  terms, and export-ready PDFs for LIS and EMR systems.
+                </p>
+                <ul class="checklist">
+                  <li><span>✔</span> SNOMED/LOINC-aligned fields</li>
+                  <li><span>✔</span> Role-based approvals and e-sign</li>
+                  <li><span>✔</span> One-click export to LIS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel: Risk -->
+          <div class="tab-panel" id="risk" role="tabpanel" hidden>
+            <div class="panel-grid">
+              <img
+                src="https://images.unsplash.com/photo-1583912086096-5c1316f7b3f6?q=80&w=1200&auto=format&fit=crop"
+                alt="Risk flagging dashboard with alerts"
+              />
+              <div>
+                <h3>Escalate what matters</h3>
+                <p>
+                  High-risk cases are flagged with SLA timers and notifications,
+                  ensuring rapid escalation and reduced time-to-diagnosis.
+                </p>
+                <ul class="checklist">
+                  <li><span>✔</span> Priority queues and alerts</li>
+                  <li><span>✔</span> SLA-based case routing</li>
+                  <li><span>✔</span> Audit logs for compliance</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technology Stack -->
+    <section id="technology" class="section alt" aria-labelledby="tech-title">
+      <div class="container">
+        <h2 id="tech-title" class="section-title">Technology stack</h2>
+        <div class="grid cards-3 tech-grid">
+          <article class="card card-lite">
+            <div class="card-icon">🧠</div>
+            <h3>AI models: Imagen & Veo</h3>
+            <p>
+              Advanced generative-vision backbones supporting slide enhancement,
+              visual reasoning, and artifact mitigation for robust analysis.
+            </p>
+          </article>
+          <article class="card card-lite">
+            <div class="card-icon">🤖</div>
+            <h3>LLM agents</h3>
+            <p>
+              Reasoning agents orchestrate workflows, explain findings, and
+              generate structured reports with traceable references.
+            </p>
+          </article>
+          <article class="card card-lite">
+            <div class="card-icon">☁️</div>
+            <h3>Hybrid cloud + edge</h3>
+            <p>
+              On-device pre-processing and cloud aggregation balance latency,
+              cost, and privacy—even in low-bandwidth clinics.
+            </p>
+          </article>
+          <article class="card card-lite">
+            <div class="card-icon">🔗</div>
+            <h3>LIS integration</h3>
+            <p>
+              Standards-friendly connectors for HL7/FHIR to embed PathoLens AI
+              into existing Lab Information Systems with minimal change.
+            </p>
+          </article>
+          <article class="card card-lite">
+            <div class="card-icon">🔒</div>
+            <h3>Security & compliance</h3>
+            <p>
+              Privacy-by-design with encryption, RBAC, and data minimization
+              aligned to HIPAA and GDPR requirements.
+            </p>
+          </article>
+          <article class="card card-lite">
+            <div class="card-icon">📈</div>
+            <h3>Observability</h3>
+            <p>
+              Model monitoring, drift detection, and feedback loops ensure
+              sustained quality across sites and populations.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expected Outcomes -->
+    <section id="outcomes" class="section" aria-labelledby="outcomes-title">
+      <div class="container">
+        <h2 id="outcomes-title" class="section-title">Expected outcomes</h2>
+        <div class="metrics">
+          <div class="metric">
+            <div class="counter" data-target="2" data-suffix=" min">0</div>
+            <p>Average slide analysis time</p>
+          </div>
+          <div class="metric">
+            <div class="counter" data-target="90" data-suffix="%">0%</div>
+            <p>Diagnostic accuracy (≥90%)</p>
+            <div class="progress">
+              <div class="bar" data-width="90"></div>
+            </div>
+          </div>
+          <div class="metric">
+            <div class="counter" data-target="50" data-suffix="%">0%</div>
+            <p>Reduction in reporting time</p>
+            <div class="progress">
+              <div class="bar" data-width="50"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Impact -->
+    <section class="section alt" aria-labelledby="impact-title">
+      <div class="container">
+        <h2 id="impact-title" class="section-title">Social impact</h2>
+        <div class="grid cards-3">
+          <article class="card card-lite">
+            <div class="card-icon">🌍</div>
+            <h3>Reach rural communities</h3>
+            <p>
+              Telepathology and edge inference extend specialist-grade
+              diagnostics to underserved districts without new infrastructure
+              buildouts.
+            </p>
+          </article>
+          <article class="card card-lite">
+            <div class="card-icon">⏱️</div>
+            <h3>Reduce delays</h3>
+            <p>
+              Smart triage and faster reporting shorten time-to-treatment,
+              improving outcomes and patient satisfaction.
+            </p>
+          </article>
+          <article class="card card-lite">
+            <div class="card-icon">🧑‍⚕️</div>
+            <h3>Support the workforce</h3>
+            <p>
+              Decision support eases cognitive load, enabling specialists to
+              focus on complex cases and quality of care.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Footer -->
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title" class="section-title">Contact us</h2>
+        <p class="section-lead">
+          Request a demo or ask about pilots. We’ll get back within 1–2 business
+          days.
+        </p>
+
+        <form id="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <!-- Hidden bot-field (spam trap) -->
+             <input type="hidden" name="form-name" value="contact" />
+             <p class="hidden">
+                <label>Don’t fill this out if you're human: <input name="bot-field" /></label></p>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="Your full name"
+                required
+              />
+              <small class="error" aria-live="polite"></small>
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="you@organization.com"
+                required
+              />
+              <small class="error" aria-live="polite"></small>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Tell us about your lab and goals..."
+              required
+            ></textarea>
+            <small class="error" aria-live="polite"></small>
+          </div>
+
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <p
+            id="form-status"
+            class="form-status"
+            role="status"
+            aria-live="polite"
+          ></p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer" role="contentinfo">
+      <div class="container footer-grid">
+        <div>
+          <a class="logo footer-logo" href="#home">PathoLens <span>AI</span></a>
+          <p class="footnote">
+            © <span id="year"></span> PathoLens AI. All rights reserved.
+          </p>
+        </div>
+        <div class="social">
+          <a href="#" aria-label="LinkedIn" title="LinkedIn">in</a>
+          <a href="#" aria-label="Twitter" title="Twitter">X</a>
+          <a href="#" aria-label="YouTube" title="YouTube">▶</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
